@@ -1,74 +1,161 @@
-# Awesome-Customer-Support-Service-Automation
+# 🤖 Awesome Customer Support & Service Automation 🚀
 
-## Top Customer Support & Service Automation Ecosystem
+<div align="center">
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on AI Agents, Workflow Automation & Omnichannel Support Orchestration*  
-**Last updated: March 2026**
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Customer-Support-Service-Automation?style=social)](https://github.com/ishandutta2007/Awesome-Customer-Support-Service-Automation/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-Customer-Support-Service-Automation?style=social)](https://github.com/ishandutta2007/Awesome-Customer-Support-Service-Automation/network/members)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Customer Support & Service Automation**. These tools help support teams automate repetitive work—auto-routing tickets, drafting AI responses, enforcing SLAs, and orchestrating workflows across email, chat, and voice channels—so agents can focus on complex issues that need human judgment.
+<br/><br/>
 
-**Examples** include Zendesk, Freshdesk, Intercom, ServiceNow CSM, Ada, Gorgias, Kustomer, LivePerson, and open-source alternatives like Libredesk, Owly, and TGO (the category leaders).
+<a href="#readme">
+  <img src="assets/banner.svg" alt="Awesome Customer Support & Service Automation Ecosystem Banner" width="100%">
+</a>
 
-**Open-source emphasis**: This section highlights every major active project for self-hosted support automation, open-source AI agents, and community-driven workflow orchestration—ideal for organizations seeking data sovereignty and predictable costs over per-resolution or per-seat SaaS pricing. The open-source support automation space has matured rapidly: Libredesk offers a production-ready omnichannel desk in a single Go binary [citation:1], Owly provides a full AI agent with WhatsApp and voice support [citation:3], and Inbxer delivers account-aware AI drafting for B2B SaaS [citation:6].
+<br/><br/>
 
-Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
+**A curated index of leading SaaS platforms and open-source software powering modern AI agents, ticket triage, omnichannel helpdesks, and customer service automation workflows.**
 
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+[Explore SaaS](#-saas-products--hosted-platforms) • [Open-Source Solutions](#-open-source-github-projects) • [Market Dynamics](#-sector-overview--market-dynamics) • [Contributing](#-how-to-contribute) • [Support](#-support)
 
-## SaaS/Hosted Platforms
-
-| Product | Description | Pricing (Starting) | Free Tier / Trial Limits |
-|---------|-------------|-------------------|--------------------------|
-| **[Zendesk](https://www.zendesk.com/)** | Enterprise ticketing and support automation with AI agents, intelligent triage, and workflow automation. Transitioning to **Outcome AI Platform** with outcome-based pricing (unlimited seats, pay for eligible outcomes). | Quote-only (bundled with Zendesk Suite) | No free tier; trial via sales |
-| **[Freshdesk](https://www.freshworks.com/freshdesk/)** | Cloud helpdesk with Freddy AI for automated responses, routing, and agent assistance. Growth tier covers core support; Pro adds custom dashboards; Enterprise adds skill-based routing. | Growth: **$19/agent/month** (annual); Pro: $55; Enterprise: $89 | No permanent free tier; Freddy AI Agent: 500 free sessions, then $49/100 |
-| **[Intercom](https://www.intercom.com/)** | AI-first support platform with **Fin AI agent** resolving conversations autonomously at **$0.99 per outcome**. Copilot assists human agents with drafting and knowledge retrieval. | Essential: **$29/seat/month** (annual); Fin outcomes: $0.99 each | No permanent free tier; trial available |
-| **[ServiceNow CSM](https://www.servicenow.com/)** | Enterprise customer service management with AI-powered case resolution, workflow automation, and omnichannel routing. | Quote-only; ~$100–$200/fulfiller/month (smallest band) | No free tier; demo via sales |
-| **[Ada](https://www.ada.cx/)** | AI-powered customer service automation platform. Automates resolutions across chat, voice, and email with no-code AI agent building. | Quote-only | No free tier; demo via sales |
-| **[Gorgias](https://www.gorgias.com/)** | E-commerce-focused helpdesk with automation for order-related tickets, macros, and intent-based routing. Plans scale by ticket volume. | Quote-only (ticket-volume based) | Free trial available |
-| **[Kustomer](https://www.kustomer.com/)** | Timeline-based customer service platform with automation workflows and AI-assisted responses. | From **$89/user/month** (Enterprise) | No permanent free tier |
-| **[LivePerson](https://www.liveperson.com/)** | Conversational AI platform for messaging automation, voice bots, and human-agent handoff. | Quote-only | No free tier; demo via sales |
-
-## Open-Source GitHub Projects
-
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[Libredesk](https://github.com/abhinavxd/libredesk)** | [![Stars](https://img.shields.io/github/stars/abhinavxd/libredesk?style=social&color=white)](https://github.com/abhinavxd/libredesk/stargazers) | **Production-ready omnichannel support desk in a single Go binary.** ~2,500 stars, active as of September 2026. Bundles live chat, email, and other channels with auto-routing, canned responses, and scheduled follow-ups. REST API and webhook support for integration with CRMs and ticketing systems. Go's efficiency means low infrastructure cost for real-time chat [citation:1]. |
-| **[Owly](https://github.com/Hesper-Labs/owly)** | [![Stars](https://img.shields.io/github/stars/Hesper-Labs/owly?style=social&color=white)](https://github.com/Hesper-Labs/owly/stargazers) | **Full open-source AI customer support agent with WhatsApp, email, and phone.** MIT licensed. OpenAI GPT integration with function calling and RAG knowledge base. Auto-routing rules, auto-tagging, SLA rules, canned responses, and CSAT surveys. Admin dashboard with unified inbox, customer CRM, and analytics. Docker Compose deployment with Next.js/PostgreSQL stack [citation:3]. |
-| **[Inbxer](https://github.com/inbxer/inbxer)** | [![Stars](https://img.shields.io/github/stars/inbxer/inbxer?style=social&color=white)](https://github.com/inbxer/inbxer/stargazers) | **Account-aware AI support for B2B SaaS.** MIT licensed, no per-seat limit. Six focused AI agents (Support Reply, Thread Summary, Urgency, Labeling, Title, Tone Rules) that draft and organize work—but **humans decide** what reaches customers. Unified queue across email, Slack, and in-app chat. Rule-based workflows, business-hours-aware SLAs, CSAT surveys, and auditability. Laravel/MySQL/Redis with Docker Compose [citation:6]. |
-| **[TGO](https://github.com/tgoai/tgo)** | [![Stars](https://img.shields.io/github/stars/tgoai/tgo?style=social&color=white)](https://github.com/tgoai/tgo/stargazers) | **Multi-agent AI orchestration with human collaboration workspace.** Multi-channel access (Web Widget, WeChat, Telegram, Slack, email), LLM orchestration (OpenAI, Anthropic), RAG knowledge base (documents, Q&A, website crawling), and MCP tool store. Smart handoff to human agents with unified Agent Workspace. One-click bootstrap deployment [citation:8]. |
-| **[Frappe Helpdesk](https://github.com/frappe/helpdesk)** | [![Stars](https://img.shields.io/github/stars/frappe/helpdesk?style=social&color=white)](https://github.com/frappe/helpdesk/stargazers) | Modern open-source customer service platform built on Frappe framework (~3,100 stars). SLAs with business hours, auto-assignment by priority/type/team/workload, unlimited agents with no seat fees, Google/Microsoft/OIDC sign-in, and customer sync with ERPNext. Extensible for AI/RAG integrations without assembling a model stack from scratch [citation:10]. |
-
-### Additional Strong Open-Source Options
-
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[Chatty](https://github.com/PersonaliAI/chatty)** | [![Stars](https://img.shields.io/github/stars/PersonaliAI/chatty?style=social&color=white)](https://github.com/PersonaliAI/chatty/stargazers) | Open-source, self-hostable Zendesk and Intercom alternative for AI customer support. Features chat widget, shared inbox, real-time voice, multimodal RAG, and MCP. Managed-Supabase architecture with Docker Compose, Railway, and Render deployment profiles [citation:5]. |
-| **[Znuny](https://github.com/znuny/Znuny)** | [![Stars](https://img.shields.io/github/stars/znuny/Znuny?style=social&color=white)](https://github.com/znuny/Znuny/stargazers) | LTS fork of OTRS Community Edition. One of the most flexible web-based ticketing systems for customer service, help desk, and IT service management. Perl-based with full customer self-service portal and workflow automation [citation:7]. |
-| **[Helpy](https://github.com/helpyio/helpy)** | [![Stars](https://img.shields.io/github/stars/helpyio/helpy?style=social&color=white)](https://github.com/helpyio/helpy/stargazers) | Modern open-source helpdesk with knowledgebase, community discussions, and support tickets integrated with email. MIT licensed. A lighter-weight option for teams wanting support automation without enterprise complexity [citation:11]. |
-
-**Frameworks for building custom systems**: Combine **Libredesk** for a lightweight omnichannel desk with minimal infrastructure, **Owly** for full AI agent automation across WhatsApp and voice, and **Inbxer** for account-aware B2B support with human-controlled AI drafting—all deployable via Docker without per-resolution or per-seat fees. For teams already on Frappe/ERPNext, **Frappe Helpdesk** integrates natively.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Support automation platforms handle customer PII and conversation data; enforce role-based access, audit logging, and compliance with applicable data protection regulations. AI-drafted responses should be reviewed before reaching customers.
-- **AI automation pricing is shifting toward outcome-based models.** Intercom charges $0.99 per Fin outcome—a 10-agent team with 2,000 resolutions/month pays ~$1,980 in AI outcomes alone. Open-source alternatives like **Owly** and **Inbxer** eliminate per-resolution fees but require self-hosting effort. **Inbxer is explicitly designed for human-controlled AI** ("AI drafts, humans decide"), while **TGO** and **Owly** offer more autonomous agent behavior. Choose based on your risk tolerance for automated customer responses [citation:3][citation:6][citation:8].
+</div>
 
 ---
 
-**Made for support operations managers, CX leaders, helpdesk administrators, and developers building automation infrastructure.**  
-Let's make customer support automation more open, controllable, and efficient.
+## 🧭 Table of Contents
+
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS Products & Hosted Platforms](#-saas-products--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Architecture & Deployment Patterns](#-architecture--deployment-patterns)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📈 Star History](#-star-history)
+- [☕ Support](#-support)
+- [⚖️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+> 💡 **Market Size & Velocity:** The global customer service software and support automation market is estimated at **$51B–$55B in 2026**, on a clear trajectory to eclipse **$95B+** over the next decade at a compound annual growth rate (CAGR) of ~14–16%, spurred by autonomous generative AI agents, automated resolution engines, and real-time voice triage.
+>
+> 🌐 **Market Concentration & Structure:** The industry remains **moderately fragmented**: massive enterprise incumbents like **ServiceNow** and **Zendesk** anchor core operational workflows in the Fortune 2000, yet the rapid emergence of agentic AI native platforms (e.g., **Fin/Intercom**, **Ada**) and extensible open-source stacks (e.g., **Chatwoot**, **Zammad**, **Libredesk**) prevents a simple "winner-take-all" consolidation. Mid-market and SMB buyers increasingly leverage best-of-breed outcome-based AI or sovereign self-hosted solutions rather than all-in-one monoliths.
+
+---
+
+## ☁️ SaaS Products & Hosted Platforms
+
+Enterprise customer support and CX platforms sorted by company scale (market capitalization / valuation in descending order):
+
+| Product | Valuation / Revenue | Starting Pricing | Free Tier / Free Trial Limits | Description |
+|:---|:---|:---|:---|:---|
+| **[ServiceNow CSM](https://www.servicenow.com/)** | **~$105B Market Cap** *(NYSE: NOW, ~$10.9B ARR)* | **$130/fulfiller/month** (Customer Service Management Standard list estimate, billed annually) | **No free tier**; custom sandbox available only via enterprise sales demonstration | Enterprise-grade digital workflow engine connecting front-line customer service cases directly to IT, HR, and back-office operations with Now Assist AI. |
+| **[Zendesk](https://www.zendesk.com/)** | **$10.2B Valuation** *(acquired by Hellman & Friedman, ~$1.7B ARR)* | **$19/agent/month** (Support Team, annual billing; Suite Team omnichannel starts at $55/agent/month) | **14-day free trial** (Full access to Suite Professional features; extendable up to 28 days; no credit card required) | Full-lifecycle omnichannel customer support software featuring intelligent ticket routing, AI bots, workforce management, and automated macros. |
+| **[Intercom](https://www.intercom.com/)** | **$3.6B Valuation** *(~$340M+ ARR)* | **$29/seat/month** (Essential tier, annual billing) + **$0.99 per autonomous Fin AI resolution** | **14-day free trial** (Cardless access to Essential/Advanced features and Fin AI resolution credits) | AI-first customer experience platform centered on the **Fin AI agent**, delivering conversational triage, omnichannel inboxes, and automated self-service. |
+| **[Freshdesk](https://www.freshworks.com/freshdesk/)** | **~$3.3B Market Cap** *(NASDAQ: FRSH, ~$700M+ ARR)* | **$19/agent/month** (Growth tier, annual billing; Pro tier at $55/agent/month) | **14-day full feature trial**; also offers a restricted **Free Program for up to 2 agents** (capped at 6 months, basic email/social ticketing) | Cloud helpdesk featuring Freddy AI for instant deflection, ticket routing rules, collaborative team inboxes, and integrated analytics. |
+| **[Ada](https://www.ada.cx/)** | **$1.2B Valuation** *(Series C unicorn, ~$202M raised)* | **~$2,500/month** (~$30,000/year minimum baseline contract commit) | **No free tier or public self-serve trial**; guided proof-of-concept evaluation available upon enterprise sales demo | Enterprise AI agent platform for automating complex customer support conversations across web chat, SMS, social channels, and voice without code. |
+| **[Gorgias](https://www.gorgias.com/)** | **~$600M Valuation** *(Series C, ~$70M ARR)* | **$10/month** (Starter tier, includes 50 tickets/month; Basic tier starts at $60/month for 300 tickets) | **7-day free trial** (Includes standard helpdesk capabilities and ticket automations; no credit card required) | E-commerce-specialized helpdesk deeply integrated with Shopify, BigCommerce, and Magento with auto-refunds, order tracking, and machine learning macros. |
+| **[Kustomer](https://www.kustomer.com/)** | **~$250M Valuation** *(independent spin-out, Series B, ~$25M ARR)* | **$89/user/month** (Enterprise tier, annual commitment with standard 8-seat minimum, ~$8,544/year) | **30-day free trial** for Kustomer AI features; core CRM platform offers guided demo upon sales request | Omnichannel CRM delivering single-timeline views of customer interactions, continuous intent detection, and automated conversational routing. |
+| **[LivePerson](https://www.liveperson.com/)** | **~$36M Market Cap** *(NASDAQ: LPSN, ~$300M revenue)* | **~$2,000–$5,000/month** (Quote-based enterprise licensing, ~$60,000+ average annual deployment) | **No self-serve free tier**; evaluation sandbox configured only via sales consultation | Conversational AI and digital engagement suite automating voice-to-messaging deflection, bot-to-agent handoffs, and commerce workflows. |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+Self-hosted, transparent, and privacy-preserving helpdesk and support automation frameworks sorted by GitHub community popularity (stargazers count descending):
+
+| Repository | GitHub Stars Badge | Tech Stack | License | Description & Automation Highlights |
+|:---|:---:|:---:|:---:|:---|
+| **[Chatwoot](https://github.com/chatwoot/chatwoot)** | [![Stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers) | Ruby on Rails, Vue.js | AGPL-3.0 | 🌟 Open-source customer engagement suite and alternative to Intercom and Zendesk. Features live chat widgets, unified omnichannel inboxes (WhatsApp, Twitter, Email, Facebook), Captain AI assistant bot, workflow auto-assignments, and webhook triggers. |
+| **[Papercups](https://github.com/papercups-io/papercups)** | [![Stars](https://img.shields.io/github/stars/papercups-io/papercups?style=social&color=white)](https://github.com/papercups-io/papercups/stargazers) | Elixir, Phoenix, React | MIT | 💬 Modern open-source customer messaging platform. Embeddable chat widgets, Slack bi-directional sync, custom event triggers, and support automation built with high-concurrency architecture. |
+| **[Zammad](https://github.com/zammad/zammad)** | [![Stars](https://img.shields.io/github/stars/zammad/zammad?style=social&color=white)](https://github.com/zammad/zammad/stargazers) | Ruby on Rails, GraphQL | AGPL-3.0 | 🛡️ Web-based open-source ticketing system for enterprise support desks. Delivers automated SLA escalation, smart auto-assignment rules, time tracking, full audit trails, and multi-channel connectors (Email, Chat, Telephone/CTI, Social). |
+| **[FreeScout](https://github.com/freescout-helpdesk/freescout)** | [![Stars](https://img.shields.io/github/stars/freescout-helpdesk/freescout?style=social&color=white)](https://github.com/freescout-helpdesk/freescout/stargazers) | PHP (Laravel), MySQL | AGPL-3.0 | 📬 Lightweight self-hosted help desk and shared inbox. Zero seat fees, modular ecosystem with 50+ community plugins (Auto-responder, Custom Fields, SLA Rules, Telegram/WhatsApp notifications, Satisfaction Surveys). |
+| **[osTicket](https://github.com/osTicket/osTicket)** | [![Stars](https://img.shields.io/github/stars/osTicket/osTicket?style=social&color=white)](https://github.com/osTicket/osTicket/stargazers) | PHP, MySQL | GPL-2.0 | 🎫 Battle-tested open-source customer support ticket system. Features ticket filters, auto-responder workflows, SLA management, interactive customer self-service knowledgebase, and role-based permissions. |
+| **[Chaskiq](https://github.com/chaskiq/chaskiq)** | [![Stars](https://img.shields.io/github/stars/chaskiq/chaskiq?style=social&color=white)](https://github.com/chaskiq/chaskiq/stargazers) | Ruby on Rails, React | AGPL-3.0 | ⚡ Full-featured conversational marketing, chat, and support messaging platform. Includes bot-builder automation, campaign triggers, onboarding tours, and integrations with WhatsApp, Twitter, and Slack. |
+| **[Frappe Helpdesk](https://github.com/frappe/helpdesk)** | [![Stars](https://img.shields.io/github/stars/frappe/helpdesk?style=social&color=white)](https://github.com/frappe/helpdesk/stargazers) | Python, Frappe, Vue.js | GPL-3.0 | 🏢 High-velocity helpdesk built on the Frappe framework. Features business-hours SLAs, automatic assignment matrix by priority/agent load, native customer master sync with ERPNext, and unlimited agents without licensing fees. |
+| **[Libredesk](https://github.com/abhinavxd/libredesk)** | [![Stars](https://img.shields.io/github/stars/abhinavxd/libredesk?style=social&color=white)](https://github.com/abhinavxd/libredesk/stargazers) | Go, Alpine.js, SQLite | MIT | 🚀 High-performance, zero-dependency omnichannel desk packaged into a single Go binary. Provides live webchat, canned responses, auto-routing rules, and low memory footprints for sovereign cloud edge deployments. |
+| **[Helpy](https://github.com/helpyio/helpy)** | [![Stars](https://img.shields.io/github/stars/helpyio/helpy?style=social&color=white)](https://github.com/helpyio/helpy/stargazers) | Ruby on Rails, PostgreSQL | MIT | 📚 Modern open-source helpdesk with embedded knowledgebase, multi-lingual support, email ticket synchronization, and community forum discussions designed for frictionless self-hosting. |
+| **[Live Helper Chat](https://github.com/livehelperchat/livehelperchat)** | [![Stars](https://img.shields.io/github/stars/livehelperchat/livehelperchat?style=social&color=white)](https://github.com/livehelperchat/livehelperchat/stargazers) | PHP, React, Node.js | Apache-2.0 | 📞 Open-source live support chat system featuring proactive invitations, automated voice/video calls, Telegram/WhatsApp bot integrations, and custom auto-responders. |
+| **[TGO](https://github.com/tgoai/tgo)** | [![Stars](https://img.shields.io/github/stars/tgoai/tgo?style=social&color=white)](https://github.com/tgoai/tgo/stargazers) | Python, FastAPI, React | MIT | 🤖 Multi-agent AI orchestration platform connecting LLMs (OpenAI, Anthropic) with Model Context Protocol (MCP) toolkits. Implements automated RAG document search, autonomous ticket triage, and seamless human agent handoffs. |
+| **[Znuny](https://github.com/znuny/Znuny)** | [![Stars](https://img.shields.io/github/stars/znuny/Znuny?style=social&color=white)](https://github.com/znuny/Znuny/stargazers) | Perl, JavaScript, MariaDB | GPL-3.0 | ⚙️ Community-driven LTS fork of OTRS. Robust ITIL-compliant service management and customer support ticketing with extensive event-based routing, process automation, and customer portals. |
+| **[Owly](https://github.com/Hesper-Labs/owly)** | [![Stars](https://img.shields.io/github/stars/Hesper-Labs/owly?style=social&color=white)](https://github.com/Hesper-Labs/owly/stargazers) | Next.js, Node.js, PostgreSQL | MIT | 🦉 Autonomous AI customer support agent with native WhatsApp, telephone voice bot, and email connectors. Implements OpenAI GPT function calling, RAG knowledge ingestion, auto-tagging, and CSAT metrics. |
+| **[Chatty](https://github.com/PersonaliAI/chatty)** | [![Stars](https://img.shields.io/github/stars/PersonaliAI/chatty?style=social&color=white)](https://github.com/PersonaliAI/chatty/stargazers) | Next.js, Supabase, Tailwind | MIT | 🧪 Self-hostable AI customer support engine with real-time audio voice mode, shared inbox, multimodal RAG retrieval, and MCP tool execution runnable on Docker Compose, Railway, or Render. |
+| **[Inbxer](https://github.com/inbxer/inbxer)** | [![Stars](https://img.shields.io/github/stars/inbxer/inbxer?style=social&color=white)](https://github.com/inbxer/inbxer/stargazers) | PHP (Laravel), Vue.js, Redis | MIT | 🎯 Account-aware AI support for B2B SaaS. Features six dedicated AI agents that prepare draft replies, conversation summaries, sentiment triage, and urgency flags while keeping humans strictly in control of final outbound messages. |
+
+---
+
+## 🛠️ Architecture & Deployment Patterns
+
+Support automation systems typically combine several architectural layers:
+
+```text
+       ┌────────────────────────────────────────────────────────┐
+       │   Customer Touchpoints: Chat, Email, Voice, WhatsApp   │
+       └───────────────────────────┬────────────────────────────┘
+                                   │
+                                   ▼
+       ┌────────────────────────────────────────────────────────┐
+       │     Omnichannel Ingestion & Webhook Event Gateway      │
+       └───────────────────────────┬────────────────────────────┘
+                                   │
+                 ┌─────────────────┴─────────────────┐
+                 ▼                                   ▼
+   ┌───────────────────────────┐       ┌───────────────────────────┐
+   │ Autonomous AI Agent (RAG) │       │ Rules Engine / Auto-Route │
+   │ Intent, Drafting & Tool   │       │ SLA Timers, Queues, Tags  │
+   └─────────────┬─────────────┘       └─────────────┬─────────────┘
+                 │                                   │
+                 └─────────────────┬─────────────────┘
+                                   │
+       ┌───────────────────────────▼────────────────────────────┐
+       │  Unified Human Agent Workspace (Zammad/Chatwoot/Go)    │
+       │  Review Drafts • Approve Responses • Resolve Incidents │
+       └────────────────────────────────────────────────────────┘
+```
+
+- **Data Sovereignty & Compliance:** Self-hosted open-source stacks (such as Chatwoot, Zammad, or FreeScout) ensure GDPR, HIPAA, and SOC-2 data residency compliance without sending sensitive customer transcripts to third-party per-resolution cloud providers.
+- **Outcome-Based vs. Seat-Based Economics:** Commercial AI agents like Intercom Fin ($0.99/resolution) offer fast ROI for peak volumes, while open-source agents (Owly, Inbxer, TGO) enable zero marginal cost per resolution by connecting directly to private LLM backends (Ollama, vLLM, or self-hosted API endpoints).
+
+---
+
+## 🤝 How to Contribute
+
+We welcome additions, corrections, and improvements from CX leaders, DevOps engineers, and developers:
+
+1. **Fork** this repository.
+2. **Add / update** your project entry in the appropriate table adhering to the schema:
+   - For SaaS: Name, Valuation/Revenue, Starting Price, Free Tier / Trial limits, and 1–2 sentence description.
+   - For Open-Source: Name, GitHub Star Badge (`style=social&color=white`), Stack, License, and description.
+3. Keep descriptions neutral, factual, and backed by verifiable documentation.
+4. **Submit a Pull Request** with a brief summary of additions.
+
+For overarching meta-lists and awesome curation standards, explore the **[Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)** master catalog!
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Customer-Support-Service-Automation&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Customer-Support-Service-Automation&type=date&legend=top-left)
+
+---
+
+## ☕ Support
+
+If this curated catalog helps you build, evaluate, or optimize customer support workflows and AI automation, consider showing your support:
+
+- ⭐ **Star this repository** to help others discover it.
+- 🍴 **Fork and contribute** to keep entries up to date.
+- 📢 **Share with your network** across LinkedIn, Twitter/X, and tech communities.
+- 💖 **Sponsor the maintainer** or buy a coffee via the **[GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)**.
+
+Thank you to all contributors and open-source maintainers making customer experience smarter, faster, and more accessible! 🙌
+
+---
+
+## ⚖️ Disclaimer
+
+- This repository is a community-curated reference and does not constitute formal financial, architectural, or legal endorsement.
+- All product names, logos, and brands are property of their respective owners.
+- When configuring automated generative AI customer replies, always evaluate safety guardrails, human-in-the-loop escalation paths, and compliance with local privacy regulations.
