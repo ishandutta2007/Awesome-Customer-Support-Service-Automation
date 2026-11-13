@@ -3,7 +3,7 @@
 <div align="center">
 
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Customer-Support-Service-Automation?style=social)](https://github.com/ishandutta2007/Awesome-Customer-Support-Service-Automation/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Customer-Support-Service-Automation?style=social)](https://github.com/ishandutta2007/Awesome-Customer-Support-Service-Automation/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-Customer-Support-Service-Automation?style=social)](https://github.com/ishandutta2007/Awesome-Customer-Support-Service-Automation/network/members)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -66,7 +66,7 @@ Enterprise customer support and CX platforms sorted by company scale (market cap
 
 Self-hosted, transparent, and privacy-preserving helpdesk and support automation frameworks sorted by GitHub community popularity (stargazers count descending):
 
-| Repository | GitHub Stars Badge | Tech Stack | License | Description & Automation Highlights |
+| Repository | GitHub_Stars_Badge | Tech Stack | License | Description & Automation Highlights |
 |:---|:---:|:---:|:---:|:---|
 | **[Chatwoot](https://github.com/chatwoot/chatwoot)** | [![Stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers) | Ruby on Rails, Vue.js | AGPL-3.0 | 🌟 Open-source customer engagement suite and alternative to Intercom and Zendesk. Features live chat widgets, unified omnichannel inboxes (WhatsApp, Twitter, Email, Facebook), Captain AI assistant bot, workflow auto-assignments, and webhook triggers. |
 | **[Papercups](https://github.com/papercups-io/papercups)** | [![Stars](https://img.shields.io/github/stars/papercups-io/papercups?style=social&color=white)](https://github.com/papercups-io/papercups/stargazers) | Elixir, Phoenix, React | MIT | 💬 Modern open-source customer messaging platform. Embeddable chat widgets, Slack bi-directional sync, custom event triggers, and support automation built with high-concurrency architecture. |
@@ -127,7 +127,7 @@ We welcome additions, corrections, and improvements from CX leaders, DevOps engi
 1. **Fork** this repository.
 2. **Add / update** your project entry in the appropriate table adhering to the schema:
    - For SaaS: Name, Valuation/Revenue, Starting Price, Free Tier / Trial limits, and 1–2 sentence description.
-   - For Open-Source: Name, GitHub Star Badge (`style=social&color=white`), Stack, License, and description.
+   - For Open-Source: Name, GitHub Stars_Badge (`style=social&color=white`), Stack, License, and description.
 3. Keep descriptions neutral, factual, and backed by verifiable documentation.
 4. **Submit a Pull Request** with a brief summary of additions.
 
