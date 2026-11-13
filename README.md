@@ -1,6 +1,6 @@
 # Awesome-Customer-Support-Service-Automation
 
-# Top Customer Support & Service Automation Ecosystem
+## Top Customer Support & Service Automation Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on AI Agents, Workflow Automation & Omnichannel Support Orchestration*  
